@@ -1,49 +1,12 @@
 import React from "react";
 import { NavBar } from "../../components/navbar/navbar.component";
 import { CarouselFlexContainer, Container, ContainerWrapper } from "./styles";
-import { FilterComponent } from "../../components/filter/filter.component";
 import { CarouselCard } from "../../components/carouselCard/carouselCard";
 import { list } from "../../components/data";
+import { Like } from "../../components/like/like.component";
 
 const HomeScreen = () => {
-  const slides = [
-    {
-      slider: "hf",
-    },
-    {
-      slider: "hf",
-    },
-    {
-      slider: "hf",
-    },
-    {
-      slider: "hf",
-    },
-    {
-      slider: "hf",
-    },
-    {
-      slider: "hf",
-    },
-    {
-      slider: "hf",
-    },
-    {
-      slider: "hf",
-    },
-    {
-      slider: "hf",
-    },
-    {
-      slider: "hf",
-    },
-    {
-      slider: "hf",
-    },
-    {
-      slider: "hf",
-    },
-  ];
+
   return (
     <Container>
       <NavBar />
@@ -58,7 +21,7 @@ const HomeScreen = () => {
       ))}
       </CarouselFlexContainer>
       </ContainerWrapper>
-
+<Like/>
 
     </Container>
   );
