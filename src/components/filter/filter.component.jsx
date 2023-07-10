@@ -1,5 +1,4 @@
 import React, { useRef, useState, useEffect } from "react";
-import "../carouselfilter/Imagecarousel.css";
 import { GiIsland, GiMountainCave, GiWoodCabin } from "react-icons/gi";
 import { MdOutlineArrowForwardIos, MdOutlineBeachAccess } from "react-icons/md";
 import { IoIosArrowBack } from "react-icons/io";
