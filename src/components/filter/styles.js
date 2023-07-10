@@ -12,7 +12,13 @@ border-top:1px solid #ccc;
 box-shadow: ${(props)=> (props.stickyClass ? "3px 3px 5px 1px #ccc" : "0px 0px 0px 0px #ccc")} ;        
 border-bottom:  ${(props)=> (props.stickyClass ? "0px solid " : "0px solid")};
 padding-top:${(props)=> (props.stickyClass ? "0px" :"30px")};
+@media only screen and (max-width: 739px) {
 
+ 
+
+  border-top:0px solid #fff;
+
+}
 
 
 `;
@@ -33,11 +39,7 @@ justify-content:space-between;
 
 
 `
-export const  First = styled.div`
-width:5000px;
-height:30px;
 
-`
 
 export const FilterContainer = styled.div`
 width:88%;
@@ -57,6 +59,16 @@ scroll-behavior: smooth;
 
   
 }
+
+`
+
+
+export const FilterTextContainerWrapper = styled.div`
+max-width:auto;
+align:items:center;
+display:flex;
+justify-content:center;
+
 
 `
 export const IconContainer = styled.div`
@@ -79,15 +91,17 @@ border:1px solid #b3b3b3;
 `
 
 export const FilterText = styled(Text)`
-color:#ccc;
+color:#5c5c5c;
+ white-space: nowrap;
 
 &:hover{
 color:#000;
 }
 `
 
-export const Icon = styled.img`
+export const Icon = styled.div`
 width:30px;
+color:#5c5c5c;
 `
 
 export const FilterIconContainer = styled.div`
@@ -108,13 +122,14 @@ align-items:center;
 display:flex;
 flex-direction:column;
 justify-content:center;
-// background:red;
 &:hover {
-    border-bottom:1px solid;
- 
-    ${FilterText} {
+    border-bottom:3px solid;
+      ${Icon} {
         color: #000;
-      }
+      };
+      ${FilterText} {
+        color: #000;
+      };
 },
 `
 

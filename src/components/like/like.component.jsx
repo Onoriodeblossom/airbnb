@@ -14,8 +14,8 @@ export const Like = () =>{
             <LikeContainer className="btn btn-outline-primary"  onClick={handleClickShowLike}>
                 {like ?
                 
-                <AiOutlineHeart size={24} color="black"/>:
-                <AiFillHeart    size={24} color="red"/>
+                <AiOutlineHeart size={30} color="#fff"/>:
+                <AiFillHeart    size={30} color="red"/>
                 
 
 

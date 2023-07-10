@@ -1,5 +1,5 @@
-import React,{useState} from "react"
-import { Logo, NavBarContainer,FilterContainer,TextContainer,Filter,ResponsiveMode, SearchIconContainer, Divider, Container, ProfileContainer, NavBarContainerWrapper, IconContainer } from "./styles"
+import React from "react"
+import { Logo, NavBarContainer,FilterContainer,TextContainer,Filter,ResponsiveMode, SearchIconContainer, Divider, Container, ProfileContainer, NavBarContainerWrapper, IconContainer, Flex } from "./styles"
 import logo from "../../assets/logo.png"
 import {BiSearch,BiMenu,} from "react-icons/bi"
 import {BsPersonCircle} from "react-icons/bs"
@@ -10,9 +10,8 @@ import { FilterComponent } from "../filter/filter.component"
 
 export const NavBar = () =>{
 
-    const [stickyClass, setStickyClass] = useState('');
     return(
-        <NavBarContainer stickyClass={stickyClass}>
+        <NavBarContainer >
             <NavBarContainerWrapper>
 
             <Logo src={logo} alt="logo"/>
@@ -42,6 +41,7 @@ export const NavBar = () =>{
             </Container>
             <ResponsiveMode>
 
+<Flex>
 
             <BiSearch color="black"/>
             <TextContainer>
@@ -49,6 +49,7 @@ export const NavBar = () =>{
                 <Text color="#ccc" size="14px">Any week . Add guests</Text>
 
             </TextContainer>
+</Flex>
 <IconContainer>
 
 <PiSlidersHorizontalBold  size="24"/>

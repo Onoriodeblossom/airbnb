@@ -16,6 +16,7 @@ import {MdOutlineArrowForwardIos} from "react-icons/md"
 import {BsFillStarFill} from "react-icons/bs"
 import { IoIosArrowBack,IoChevronForwardCircleOutline,IoChevronForwardOutline} from "react-icons/io";
 import { CarouselIndicators } from "./indicator";
+import { Like } from "../like/like.component";
 
 
 export const CarouselCard = ({indicators = false, autoPlay = true ,controls=false,slides,title,date,price,rating}) => {
@@ -40,6 +41,7 @@ export const CarouselCard = ({indicators = false, autoPlay = true ,controls=fals
     <Container>
    
       <Carousel>
+        <Like/>
     {indicators && <CarouselIndicators slides={slides} currentIndex={currentSlide} switchIndex={switchIndex} />}
        {controls && 
         <FlexDiv>

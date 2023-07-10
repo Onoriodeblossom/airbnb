@@ -3,7 +3,7 @@ import { NavBar } from "../../components/navbar/navbar.component";
 import { CarouselFlexContainer, Container, ContainerWrapper } from "./styles";
 import { CarouselCard } from "../../components/carouselCard/carouselCard";
 import { list } from "../../components/data";
-import { Like } from "../../components/like/like.component";
+import { Footer } from "../../components/footer/footer.component";
 
 const HomeScreen = () => {
 
@@ -21,7 +21,7 @@ const HomeScreen = () => {
       ))}
       </CarouselFlexContainer>
       </ContainerWrapper>
-<Like/>
+<Footer/>
 
     </Container>
   );

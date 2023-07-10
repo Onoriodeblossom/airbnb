@@ -4,7 +4,7 @@ import "./indicator.css";
 
 export const CarouselIndicators = ({ slides, currentIndex, switchIndex }) => {
   return(
-    <div className="carousel-indicators">
+    <Indicator className="carousel-indicators">
     {slides.map((_, index) => (
         <button 
           
@@ -14,6 +14,6 @@ export const CarouselIndicators = ({ slides, currentIndex, switchIndex }) => {
         
       </button>
     ))}
-  </div>
+  </Indicator>
   )
 };

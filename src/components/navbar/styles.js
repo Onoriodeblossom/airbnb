@@ -137,7 +137,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 1px;
 
  export const ResponsiveMode = styled.div`
 
-width:80%;
+width:90%;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 1px;
 background-color:white;
 border-radius:25px;
@@ -147,6 +147,10 @@ padding-right:10px;
 display:flex;
 padding-left:24px;
 height:50px;
+margin-top:20px;
+
+// margin-bottom:20px;
+justify-content:space-between;
 display:none;
 
 @media only screen and (max-width: 739px) {
@@ -164,7 +168,7 @@ display:none;
 
 line-height:5px;
  flex-direction:column;
-background:red
+ margin-left:10px;
  
   
   `
@@ -180,3 +184,15 @@ background:red
   border:1px solid #b3b3b3;
 
   `
+
+
+  export const Flex =styled.div`
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  
+  
+  `
+
+
