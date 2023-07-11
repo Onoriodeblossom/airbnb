@@ -9,7 +9,7 @@ display:flex;
 justify-content:center;
 transition: ease 0.2s;
 border-top:1px solid #ccc;
-box-shadow: ${(props)=> (props.stickyClass ? "3px 3px 5px 1px #ccc" : "0px 0px 0px 0px #ccc")} ;        
+box-shadow: ${(props)=> (props.stickyClass ? "0px 3px 5px 1px #ccc" : "0px 0px 0px 0px #ccc")} ;        
 border-bottom:  ${(props)=> (props.stickyClass ? "0px solid " : "0px solid")};
 padding-top:${(props)=> (props.stickyClass ? "0px" :"30px")};
 @media only screen and (max-width: 739px) {

@@ -20,6 +20,7 @@ export const Footer = ()=>{
                 <Text>.</Text>
 
                 <Text>Privacy</Text>
+                <Text>.</Text>
                 <Text>Your Privacy Choice</Text>
                 <Text>.</Text>
                 <Text>Destination</Text>

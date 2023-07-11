@@ -57,7 +57,6 @@ export const Image = styled.img`
   max-width: 100%;
   min-width: 100%;
   border-radius: 20px;
-  background: red;
   @media only screen and (max-width: 1239px) {
     max-height: 300px;
     min-height: 300px;

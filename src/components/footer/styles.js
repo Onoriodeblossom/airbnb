@@ -12,6 +12,15 @@ background-color:white;
 z-index:20;
 
 @media only screen and (max-width: 850px) {
+
+  width:100%;
+display:flex;
+justify-content:center;
+border-top:1px solid #ccc;
+position: static;
+bottom:0;
+background-color:white;
+z-index:20;
     
   }
 
