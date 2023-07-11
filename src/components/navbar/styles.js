@@ -57,6 +57,7 @@ export const FilterContainer = styled.div`
 width:auto;
 height:auto;
 
+
 @media only screen and (max-width: 739px) {
 
     display:none
@@ -149,7 +150,6 @@ padding-left:24px;
 height:50px;
 margin-top:20px;
 
-// margin-bottom:20px;
 justify-content:space-between;
 display:none;
 
