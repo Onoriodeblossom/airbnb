@@ -1,10 +1,10 @@
 
 
   .carousel-indicator-item {
-    width: 15px;
-    height: 15px;
+    width: 5px;
+    height: 10px;
     border: none;
-    background: #0a0404;
+    background: #fff;
     opacity: 0.5;
     margin: 0.2em;
     border-radius: 50%;

@@ -52,8 +52,8 @@ export const Button = styled.button`
 `;
 
 export const Image = styled.img`
-  min-height: 380px;
-  max-height: 380px;
+  min-height: 360px;
+  max-height: 360px;
   max-width: 100%;
   min-width: 100%;
   border-radius: 20px;
@@ -82,11 +82,14 @@ export const IconContainer = styled.div`
 `;
 
 export const Indicator = styled.div`
+
+
   position: absolute;
   transform: translateX(-50%);
-  // left: 50%;
-  // bottom: 1.5em;
+  left: 50%;
+  bottom: 1.5em;
   z-index: 2;
+
 `;
 export const IndicatorItems = styled.button`
   width: 15px;
