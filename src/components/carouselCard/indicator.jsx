@@ -1,5 +1,5 @@
 import React from "react";
-import { Indicator, IndicatorItems } from "./styles";
+import { Indicator,  } from "./styles";
 import "./indicator.css";
 
 export const CarouselIndicators = ({ slides, currentIndex, switchIndex }) => {

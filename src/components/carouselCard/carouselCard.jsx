@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import {
-  Button,
   Carousel,
   CarouselInner,
   Container,
@@ -9,12 +8,11 @@ import {
   FlexDiv,
   IconContainer,
   Image,
-  Location,
   TextDiv,
 } from "./styles";
 import {MdOutlineArrowForwardIos} from "react-icons/md"
 import {BsFillStarFill} from "react-icons/bs"
-import { IoIosArrowBack,IoChevronForwardCircleOutline,IoChevronForwardOutline} from "react-icons/io";
+import { IoIosArrowBack,} from "react-icons/io";
 import { CarouselIndicators } from "./indicator";
 import { Like } from "../like/like.component";
 
