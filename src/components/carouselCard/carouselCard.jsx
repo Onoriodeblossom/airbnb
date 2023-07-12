@@ -14,7 +14,6 @@ import { BsFillStarFill } from "react-icons/bs";
 import { IoIosArrowBack } from "react-icons/io";
 import { CarouselIndicators } from "./indicator";
 import { Like } from "../like/like.component";
-import { Swiper } from "../swiper/swiper.component";
 
 export const CarouselCard = ({
   indicators = false,
