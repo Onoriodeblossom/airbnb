@@ -55,7 +55,7 @@ scroll-behavior: smooth;
 
 @media only screen and (max-width: 739px) {
 
-    width:100%;
+margin-left:20px;
 
   
 }
