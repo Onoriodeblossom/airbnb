@@ -21,14 +21,19 @@ export const Container = styled.div`
 `;
 
 export const Carousel = styled.div`
-  // margin: 0 auto;
-  // overflow: hidden;
-  // max-width: 400px;
-  // border-radius:6px;
+
   display: flex;
   align-items: center;
-  // background:green;
   position: relative;
+  @media only screen and (max-width: 549px) {
+   
+    overflow: auto;
+    scrollbar-width: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+    };
+  }
 `;
 
 export const FlexDiv = styled.div`
@@ -45,6 +50,7 @@ export const CarouselInner = styled.div`
   white-space: nowrap;
   transition: ease 1s;
   position: relative;
+
 `;
 
 export const Button = styled.button`

@@ -13,14 +13,7 @@ z-index:20;
 
 @media only screen and (max-width: 850px) {
 
-  width:100%;
-display:flex;
-justify-content:center;
-border-top:1px solid #ccc;
 position: static;
-bottom:0;
-background-color:white;
-z-index:20;
     
   }
 
@@ -41,8 +34,17 @@ justify-content:space-between;
 export const FlexDiv = styled.div`
 width:${({width})=>(width ? width: "40%")};
 display:flex;
-justify-content:space-between;
+justify-content:${({justifyContent})=>(justifyContent ? justifyContent: "flex-start")};
 align-items:center;
+// flex-direction:column;
+background-color:${({background})=>(background ? background: "transparent")};
+@media only screen and (max-width: 850px) {
+
+  width:${({width})=>(width ? width: "100%")};
+  justify-content:${({justifyContent})=>(justifyContent ? justifyContent: "flex-start")};
+ align-items:${({alignItems})=>(alignItems ? alignItems: "flex-start")};
+}
+
 
 
 @media only screen and (max-width: 850px) {

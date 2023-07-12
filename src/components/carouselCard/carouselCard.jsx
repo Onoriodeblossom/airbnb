@@ -14,6 +14,7 @@ import { BsFillStarFill } from "react-icons/bs";
 import { IoIosArrowBack } from "react-icons/io";
 import { CarouselIndicators } from "./indicator";
 import { Like } from "../like/like.component";
+import { Swiper } from "../swiper/swiper.component";
 
 export const CarouselCard = ({
   indicators = false,
@@ -40,9 +41,12 @@ export const CarouselCard = ({
     setCurrentSlide(index);
   };
 
+
+
   return (
     <Container>
       <Carousel>
+
         <Like />
         {indicators && (
           <CarouselIndicators
@@ -63,8 +67,11 @@ export const CarouselCard = ({
         )}
         <CarouselInner
           currentSlide={currentSlide}
+          
+          // onScroll={ transform: `translateX(${-currentSlide * 100}%)` }
           style={{ transform: `translateX(${-currentSlide * 100}%)` }}
         >
+
           {slides.map((slide, index) => (
             <Image src={slide} key="index" />
           ))}

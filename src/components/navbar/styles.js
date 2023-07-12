@@ -138,7 +138,7 @@ box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 1px;
 
  export const ResponsiveMode = styled.div`
 
-width:90%;
+width:85%;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 1px;
 background-color:white;
 border-radius:25px;
