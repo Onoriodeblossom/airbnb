@@ -9,7 +9,7 @@ export const Footer = ()=>{
         <FooterContainer>
             <FooterContainerWrapper>
 
-            <FlexDiv justifyContent="space-between">
+            <FlexDiv resWidth="65%" justifyContent="space-between">
                 <Text>2023 Airbnb, Inc .</Text>
               
                 <Text>Terms .</Text>
@@ -25,13 +25,13 @@ export const Footer = ()=>{
                
                 <Text>Destination</Text>
             </FlexDiv>
-            <FlexDiv width='25%' justifyContent="space-between">
+
+            <FlexDiv resWidth="32%"  width="40%"justifyContent="space-between">
                 <Text>English (US)</Text>
                 <Text> USD </Text>
-
-                <Text>Support & resources   <BsChevronUp size={25} /> </Text>
-                
-
+                <Text>Support & resources   
+                    </Text>
+                    <BsChevronUp size={25} /> 
             </FlexDiv>
             </FooterContainerWrapper>
         </FooterContainer>
